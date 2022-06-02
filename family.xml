@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE family SYSTEM "family.dtd">  -->
+ <?xml-stylesheet type="text/xsl"  href="family.xsl"?> 
+
+<family xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="family.xsd">
+
+<!-- <family>-->
+	<description></description>
+	<person gender="male" type="father" >
+		<name>
+			Hussien
+			<firstname>hussien</firstname>
+			<lastname>Hefzy</lastname>
+		</name>
+		<age>60</age>
+	</person> 
+	<person gender="female" type="mother" >
+		<name>
+			Amira
+			<firstname>amira</firstname>
+			<lastname>Hamed</lastname>
+		</name>
+		<age>58</age>
+	</person> 
+	<person gender="female" type="daughter" >
+		<name>
+			DiNa
+			<firstname>dina</firstname>
+			<lastname>Hussien</lastname>
+		</name>
+		<age>30</age>
+	</person> 
+	<person gender="female" type="daughter" >
+		<name>
+			SaRa			
+			<firstname>sara	</firstname>
+			<lastname>Hussien</lastname>
+		</name>
+		<age>26</age>
+	</person> 
+	<person gender="female" type="daughter" >
+		<name>
+			YaRa			
+			<firstname>yara</firstname>
+			<lastname>Hussien</lastname>
+		</name>
+		<age>20</age>
+	</person> 
+</family>
+
+
+
+

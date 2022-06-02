@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="address-book-nested-w-data-1.css" type="text/css"?>
+<body>
+<header>Personal address book of marie taylor-harper</header>
+<address-book>
+  <contact id="A001" category="Family">
+	
+	<img />
+		Contact Information:
+		<name>
+		  <first-name>Chelsea</first-name>
+		  <last-name>Harper</last-name>
+		  <nick-name>Fern</nick-name>
+		  <title>Ms.</title>
+		</name>
+	
+		<personal-information>
+		  <address>
+			<street>Box 3639</street>
+			<street-details></street-details>
+			<city>Santa Clara</city>
+			<state>CA</state>
+			<zipcode>95051</zipcode>
+			<country>USA</country>
+		  </address>
+		  <website>http://voyager.deanza.fhda.edu/~chelsea</website>
+		  <gender>Female</gender>
+		  <birthday>1970-05-16</birthday>
+		  <anniversary>2000-05-27</anniversary>
+		</personal-information>
+	
+		<employment-information>
+		  <company>De Anza College</company>
+		  <address>
+			<street>21250 Stevens Creek Blvd.</street>
+			<street-details></street-details>
+			<city>Cupertino</city>
+			<state>CA</state>
+			<zipcode>95014</zipcode>
+			<country>USA</country>
+		  </address>
+		  <website>http://www.deanza.edu</website>
+		</employment-information>
+	
+		<phone type="Mobile" primary="Yes">(408) 555-3321</phone>
+		<phone type="Home">(408) 555-2222</phone>
+	
+		<email type="Work" primary="Yes">harperchelsea@fhda.edu</email>
+		<email type="Mobile">5553321@messaging.sprintpcs.com</email>
+		<email type="Home">charper@sprintpcs.com</email>
+	
+		<comments>
+		  <comment item-num="1">Married to Charles.</comment>
+		</comments>
+  </contact>
+
+  <contact id="A002" category="Student">
+	<img />
+		Contact Information:
+    <name>
+      <first-name>Joseph</first-name>
+      <last-name>Student</last-name>
+      <nick-name>Joe</nick-name>
+      <title>Mr.</title>
+    </name>
+
+    <personal-information>
+      <address>
+        <street>2929 Somee St.</street>
+        <street-details>Apt 39</street-details>
+        <city>Cupertino</city>
+        <state>CA</state>
+        <zipcode>95014</zipcode>
+        <country>USA</country>
+      </address>
+      <website>http://student.info/member/joe/</website>
+      <gender>Male</gender>
+      <birthday>1985-10-06</birthday>
+      <anniversary></anniversary>
+    </personal-information>
+
+    <employment-information>
+      <company>Fry's Electronics</company>
+      <address>
+        <street>2980 Brokaw Dr</street>
+        <street-details></street-details>
+        <city>San Jose</city>
+        <state>CA</state>
+        <zipcode>95126</zipcode>
+        <country>USA</country>
+      </address>
+      <website>http://www.outpost.com/</website>
+    </employment-information>
+
+    <phone type="Mobile" primary="Yes">(408) 555-9987</phone>
+    <phone type="Home">(408) 555-1123</phone>
+
+    <email type="Work">joe@outpost.com</email>
+    <email type="Home" primary="Yes">joes_99@yahoo.com</email>
+
+    <comments>
+      <comment item-num="1">None</comment>
+    </comments>
+
+  </contact>
+
+  <contact id="A003" category="Unfiled">
+	<img />
+		Contact Information:
+    <name>
+      <first-name>Martha</first-name>
+      <middle-name>Bertha</middle-name>
+      <last-name>Stewart</last-name>
+      <nick-name>Mat</nick-name>
+      <title>Ms.</title>
+    </name>
+
+    <personal-information>
+      <address>
+        <street>299 Here Street Wy</street>
+        <street-details>Apt 99</street-details>
+        <city>Wahla Wahla</city>
+        <state>WA</state>
+        <zipcode>99999</zipcode>
+        <country>USA</country>
+      </address>
+      <website>http://marthastewart.com</website>
+      <gender>F</gender>
+      <birthday>07-12-1954</birthday>
+      <anniversary>11-11-1975</anniversary>
+    </personal-information>
+
+    <employment-information>
+      <company></company>
+      <address>
+        <street></street>
+        <street-details></street-details>
+        <city></city>
+        <state></state>
+        <zipcode></zipcode>
+        <country></country>
+      </address>
+      <website>http://marthastewart.com</website>
+    </employment-information>
+
+    <phone type="home" primary="Yes">1-800-297-1187</phone>
+
+    <email type="home" primary="Yes">martha@jail.com</email>
+
+    <comments>
+      <comment item-num="1">Currently in Jail</comment>
+    </comments>
+
+  </contact>
+
+</address-book>
+</body>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="TVSCHEDULE">
+    <complexType>
+      <sequence>
+        <element name="CHANNEL">
+          <complexType>
+            <sequence>
+              <element name="BANNER" type="string" />
+              <element name="DAY">
+                <complexType>
+                  <sequence>
+                    <element name="DATE" type="string" />
+                    <element name="HOLIDAY" type="string" />
+                    <element name="PROGRAMSLOT">
+                      <complexType>
+                        <sequence>
+                          <element name="TIME" />
+                          <element name="TITLE">
+                            <complexType>
+                              <attribute name="RATING" type="string" use="required" />
+                              <attribute name="LANGUAGE" type="string" use="required" />
+                            </complexType>
+                          </element>
+                          <element name="DESCRIPTION" />
+                        </sequence>
+                        <attribute name="VTR" type="string" use="required" />
+                      </complexType>
+                    </element>
+                  </sequence>
+                </complexType>
+              </element>
+            </sequence>
+            <attribute name="CHAN" type="string" use="required" />
+          </complexType>
+        </element>
+      </sequence>
+      <attribute name="NAME" type="string" use="required" />
+    </complexType>
+  </element>
+</schema>

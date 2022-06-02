@@ -1,0 +1,23 @@
+CATALOG
+{
+	background-color: #fff;
+	color: #000000;
+}
+CD{
+	display:block;
+	margin:20px;
+	background-color: floralwhite;
+	padding: 20px;
+}
+CD > * {
+	display:block;
+	margin-left:20px;
+
+}
+
+TITLE{
+	color: green;
+	font-size:24px;
+	font-weight:bold;
+	margin-left:0;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT family (description,(person | people )+) >
+<!ELEMENT description EMPTY>
+<!ELEMENT person (name,age )>
+<!ELEMENT name (#PCDATA|firstname|lastname)*>
+<!ELEMENT firstname (#PCDATA) >
+<!ELEMENT lastname (#PCDATA) >
+<!ELEMENT age (#PCDATA) >
+<!ATTLIST person gender (male | female) #IMPLIED >
+<!ATTLIST person type CDATA #REQUIRED >
+

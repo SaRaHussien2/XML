@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "TV.dtd">
+
+<!-- <TVSCHEDULE NAME="name" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="TV.xsd"> -->
+<TVSCHEDULE NAME="name">
+	<CHANNEL CHAN="chann">
+		<BANNER>hello bannerr</BANNER>
+		<DAY>
+			<DATE>24/2/2022</DATE>
+			<HOLIDAY>holiday</HOLIDAY>
+			<PROGRAMSLOT VTR="vtrr">
+				<TIME></TIME>
+				<TITLE RATING="rate" LANGUAGE="lang"></TITLE>
+				<DESCRIPTION></DESCRIPTION>
+			</PROGRAMSLOT>
+		</DAY>
+	</CHANNEL>
+</TVSCHEDULE>
+
+

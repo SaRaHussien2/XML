@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT rss (channel+) >
+<!ELEMENT channel (title,description,link,item+)>
+<!ELEMENT  item (title,description,link)>
+
+<!ELEMENT  title (#PCDATA)>
+<!ELEMENT  description (#PCDATA)>
+<!ELEMENT  link (#PCDATA)>
+
+<!ATTLIST rss  version  CDATA #IMPLIED>
+
